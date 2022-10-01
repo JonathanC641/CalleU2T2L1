@@ -34,6 +34,5 @@ public class PointRunner {
         p1.setX(13);
         System.out.println(p1.coordinate());
         System.out.println(p1.quadrant());
-
     }
 }

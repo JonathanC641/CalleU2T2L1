@@ -43,6 +43,9 @@ public class Point {
         if (x > 0 && y < 0) {
             return "III";
         }
-        return null;
+        if (x == 0 && y == 0) {
+            return "on the origin";
+        }
+        return "On an axis";
     }
 }
